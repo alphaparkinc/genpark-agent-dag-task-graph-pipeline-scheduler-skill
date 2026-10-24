@@ -1,0 +1,7 @@
+name: genpark-agent-dag-task-graph-pipeline-scheduler-skill
+description: Topological DAG task scheduler executing concurrent stages, computing critical paths, and detecting cyclic dependencies for autonomous agents
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
